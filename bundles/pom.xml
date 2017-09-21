@@ -13,9 +13,7 @@
 
 	<modules>
 		<module>org.wimi.rcp.extra.one</module>
-		<!--
 		<module>org.wimi.rcp.extra.two</module>
-		 -->
 		<module>org.wimi.rcp.app</module>
 	</modules>
 </project>
