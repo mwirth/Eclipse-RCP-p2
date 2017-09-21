@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="org.wimi.rcp.app" uid="wimi RCP app" id="org.wimi.rcp.app.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.2.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="org.wimi.rcp.app" uid="wimi RCP app" id="org.wimi.rcp.app.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -92,7 +92,7 @@
       <feature id="org.eclipse.e4.rcp" installMode="root"/>
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.emf.common"/>
-      <feature id="org.wimi.rcp.feature" version="1.0.2.qualifier"/>
+      <feature id="org.wimi.rcp.feature" version="1.0.0.qualifier"/>
       <feature id="org.eclipse.equinox.p2.core.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
       <feature id="org.eclipse.ecf.core.ssl.feature"/>

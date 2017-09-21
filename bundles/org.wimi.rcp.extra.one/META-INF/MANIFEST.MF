@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: One
 Bundle-SymbolicName: org.wimi.rcp.extra.one;singleton:=true
-Bundle-Version: 1.0.1.qualifier
+Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.e4.ui.model.workbench;bundle-version="2.0.0.v20170228-1842",
  org.eclipse.swt;bundle-version="3.106.0"

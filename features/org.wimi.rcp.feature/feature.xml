@@ -2,7 +2,7 @@
 <feature
       id="org.wimi.rcp.feature"
       label="Feature"
-      version="1.0.2.qualifier">
+      version="1.0.0.qualifier">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
@@ -25,13 +25,6 @@
 
    <plugin
          id="org.wimi.rcp.extra.one"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.wimi.rcp.extra.two"
          download-size="0"
          install-size="0"
          version="0.0.0"
