@@ -13,7 +13,7 @@ public class ExtraOne
 	@PostConstruct
 	public void postConstruct(Composite parent)
 	{
-		new Label(parent, SWT.NONE).setText("Extra One in Version 1.0.0");
+		new Label(parent, SWT.NONE).setText("Extra One in Version 1.0.1");
 	}
 
 }
