@@ -19,7 +19,9 @@ Added a third blugin `org.wimi.rcp.extra.two` dhowing a label `Extra Two in Vers
 ## How to use
 
 Here are the steps how you can test p2 updates using a Mac but should also run on Linux and Windows.
-1.  checkout branch v1.0.22.  build branch with `mvn clean verify`
+
+1.  checkout branch v1.0.2
+2.  build branch with `mvn clean verify`
 3.  copy folder `org.wimi.rcp.product/target/repository` to somewhere on your local filesystem. In this example I use `/home/blanase/p2test`
 4.  checkout branch v1.0.0
 5.  build branch with `mvn clean verify`
@@ -30,7 +32,7 @@ You can play around with the application version an the repository version.
 
 ## There are still two tasks open.
 
-1.  updates without restart
+1.  updates without restart (and without the OSGi-Console)
 2.  use file p2.inf instead a SystemProperty
 
 
