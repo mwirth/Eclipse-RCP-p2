@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_YEygwJ4BEee2RL716361Cg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_YEygwZ4BEee2RL716361Cg" featurename="children" parentElementId="org.wimi.rcp.app.partstack.sample">
+    <elements xsi:type="basic:Part" xmi:id="_YEygwp4BEee2RL716361Cg" elementId="org.wimi.rcp.part.extraone" contributionURI="bundleclass://org.wimi.rcp.extra.one/org.wimi.rcp.extra.one.ExtraOne" label="Extra One" closeable="true"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_8y2K0J4GEee2RL716361Cg" featurename="handlers" parentElementId="org.wimi.tycho.rcp.application">
+    <elements xsi:type="commands:Handler" xmi:id="_8y2K0Z4GEee2RL716361Cg" elementId="org.wimi.rcp.extra.one.handler.openPartCommand" contributionURI="bundleclass://org.wimi.rcp.extra.one/org.wimi.rcp.extra.one.OpenPartCommand" command="_-R-bQZ4GEee2RL716361Cg"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_-R-bQJ4GEee2RL716361Cg" featurename="commands" parentElementId="org.wimi.tycho.rcp.application">
+    <elements xsi:type="commands:Command" xmi:id="_-R-bQZ4GEee2RL716361Cg" elementId="org.wimi.rcp.extra.one.command.open" commandName="openPartCommand"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_-3-EQJ4GEee2RL716361Cg" featurename="children" parentElementId="org.eclipse.ui.main.toolbar">
+    <elements xsi:type="menu:HandledToolItem" xmi:id="_-3-EQZ4GEee2RL716361Cg" elementId="org.wimi.rcp.extra.one.handledtoolitem.trimbar.top.openpart" label="handled" iconURI="platform:/plugin/org.wimi.rcp.extra.one/icons/sample.png" tooltip="handled Tool Item" command="_-R-bQZ4GEee2RL716361Cg"/>
+    <elements xsi:type="menu:DirectToolItem" xmi:id="_gSaawJ4HEee2RL716361Cg" elementId="org.wimi.rcp.extra.one.directtoolitem.directopen" label="Direct Open" iconURI="platform:/plugin/org.wimi.rcp.extra.one/icons/sample.png" tooltip="direct open extra one" contributionURI="bundleclass://org.wimi.rcp.extra.one/org.wimi.rcp.extra.one.OpenPartCommand"/>
+  </fragments>
+</fragment:ModelFragments>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_dA08sJ6gEee2RL716361Cg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_dA08sZ6gEee2RL716361Cg" featurename="children" parentElementId="org.wimi.rcp.app.partsashcontainer.sample">
+    <elements xsi:type="basic:Part" xmi:id="_dA08sp6gEee2RL716361Cg" elementId="org.wimi.rcp.part.extraone" contributionURI="bundleclass://org.wimi.rcp.extra.two/org.wimi.rcp.extra.two.ExtraTwo" label="Extra Two"/>
+  </fragments>
+</fragment:ModelFragments>

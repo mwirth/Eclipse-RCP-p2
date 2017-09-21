@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.wimi.rcp.feature_1.0.2.qualifier.jar" id="org.wimi.rcp.feature" version="1.0.2.qualifier">
+      <category name="wimircp"/>
+   </feature>
+   <category-def name="wimircp" label="wimircp"/>
+</site>
